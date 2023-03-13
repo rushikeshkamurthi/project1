@@ -17,9 +17,9 @@ function App() {
     <div className='container'>
     <Router>
     <Routes>
-    <Route exact path="/" element={<TextForm></TextForm>} />
-    <Route exact path="/about" element={<About></About>} />
-        </Routes>
+    <Route exact path="/about" element={<About />} />
+    <Route exact path="/" element={<TextForm />} />
+    </Routes>
     </Router>
     </div>
     <div className='container '></div>
